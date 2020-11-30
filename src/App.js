@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header'
 import NameCards from './NameCards'
 import Chats from './Chats'
+import FooterButtons from './FooterButtons'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">  
   
     <Router>
+
      <Switch>
       <Route path='/chat'>  
       <Header/>
@@ -20,6 +22,7 @@ function App() {
       <NameCards/>
       </Route>
      </Switch>
+     <FooterButtons/>
     </Router>
     </div>
   );

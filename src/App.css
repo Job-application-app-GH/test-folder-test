@@ -6,6 +6,18 @@
 .icons {
   padding: 20px;
 }
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 8vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_icons {
+  padding: 20px;
+  color: purple;
+}
 
 .card {
   position: relative;
